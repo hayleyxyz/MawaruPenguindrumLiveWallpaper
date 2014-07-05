@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">輪るピングドラム</string>
+    <string name="wallpaper_description">輪るピングドラムライブ壁紙</string>
+
+    <string name="toast_failed">検索に失敗しました。もう一度やり直してください。</string>
+    
+	<string name="theme">映像</string>
+	<string name="choose_theme">映像を選択</string>
+    
+    <string-array name="themes">
+	    <item name="0">黒と赤</item>
+	    <item name="1">白と灰色</item>
+	    <item name="2">不特定</item>
+	</string-array>
+    
+</resources>
