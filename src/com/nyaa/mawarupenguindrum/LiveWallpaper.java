@@ -56,7 +56,7 @@ public class LiveWallpaper extends WallpaperService {
 			mContext = context;
 		}
 		
-		@Override
+        @Override
         public void onCreate(SurfaceHolder surfaceHolder) {
 			super.onCreate(surfaceHolder);
 			
@@ -143,19 +143,19 @@ public class LiveWallpaper extends WallpaperService {
 			}
 		}		
 		
-		@Override
-	    public void onSurfaceCreated(SurfaceHolder surfaceHolder) {
+        @Override
+        public void onSurfaceCreated(SurfaceHolder surfaceHolder) {
 			mSurfaceHolder = surfaceHolder;
 		}
 		
-		@Override
-	    public void onSurfaceChanged(SurfaceHolder surfaceHolder, int format, int width, int height) {
+        @Override
+        public void onSurfaceChanged(SurfaceHolder surfaceHolder, int format, int width, int height) {
 			mWidth = width;
 			mHeight = height;
 		}
 		
-		@Override
-	    public void onVisibilityChanged(boolean visible) {
+        @Override
+        public void onVisibilityChanged(boolean visible) {
 			mHandler.removeCallbacks(this);
 			
 			if(visible) {
